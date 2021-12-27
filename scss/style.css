@@ -1,0 +1,288 @@
+.container {
+  width: 85vw;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+}
+
+header nav {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+header nav .menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  list-style: none;
+}
+
+header nav .menu a {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #abaeb5;
+}
+
+header nav .menu a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #f6a410;
+          text-decoration-color: #f6a410;
+  color: #202336;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-intreduce {
+  margin-top: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.main-intreduce-info .intreduce-title {
+  font-family: "Playfair Display", serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #202336;
+}
+
+.main-intreduce-info .intreduce-desc {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #202336;
+}
+
+.main-intreduce-info .intreduce-link {
+  background-color: #f6a410;
+  padding: 5px 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px #abaeb5;
+          box-shadow: 5px 5px 5px #abaeb5;
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #202336;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.web-studio-text {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 30px;
+}
+
+.web-studio-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+.web-studio-history {
+  padding-left: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+}
+
+.web-studio-history-img {
+  margin-right: 40px;
+}
+
+.main-subtitle-1 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #202336;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.history-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.history-title {
+  font-family: Inter, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin-top: -20px;
+}
+
+.history-info {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 25px;
+}
+
+.develop-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
+}
+
+.foto {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.footer-contacts {
+  width: 98.5vw;
+  background: #DAF1E982;
+}
+
+.footer-contacts .footer-social {
+  height: 40px;
+  text-align: center;
+}
+
+.footer-contacts .footer-social img {
+  margin-right: 25px;
+}
+
+.footer-contacts .footer-help {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  -ms-grid-rows: 1fr auto;
+      grid-template-rows: 1fr auto;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+.footer-contacts .footer-help .info1 ul, .footer-contacts .footer-help .info2 ul, .footer-contacts .footer-help .info3 ul, .footer-contacts .footer-help .info4 ul, .footer-contacts .footer-help .info5 ul {
+  list-style-type: none;
+}
+
+.footer-contacts .footer-help .info1 ul li .h-footer, .footer-contacts .footer-help .info2 ul li .h-footer, .footer-contacts .footer-help .info3 ul li .h-footer, .footer-contacts .footer-help .info4 ul li .h-footer, .footer-contacts .footer-help .info5 ul li .h-footer {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-contacts .footer-help .info1 ul li a, .footer-contacts .footer-help .info2 ul li a, .footer-contacts .footer-help .info3 ul li a, .footer-contacts .footer-help .info4 ul li a, .footer-contacts .footer-help .info5 ul li a {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #abaeb5;
+}
+
+.footer-contacts .footer-help .info1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr;
+      grid-template-rows: auto 1fr;
+}
+
+.footer-contacts .footer-help .info1 a {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #abaeb5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  margin-top: 105px;
+}
+
+.footer-contacts .footer-help .info2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.footer-contacts .footer-help .info2 a {
+  line-height: 35px;
+}
+
+.footer-contacts .footer-help .info3 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.footer-contacts .footer-help .info3 a {
+  line-height: 35px;
+}
+
+.footer-contacts .footer-help .info4 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.footer-contacts .footer-help .info4 a {
+  line-height: 35px;
+}
+
+.footer-contacts .footer-help .info5 {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 1;
+  grid-column: 5/6;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.footer-contacts .footer-help .info5 a {
+  line-height: 35px;
+}
+/*# sourceMappingURL=style.css.map */
